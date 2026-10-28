@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#07070B">
+<title>Rogers Digital Marketing · Marketing y sistemas para restaurantes latinos en EE.UU.</title>
+<link rel="icon" href="m/l_r_orbital.webp">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Inter+Tight:wght@700;800;900&family=Lora:ital,wght@1,400;1,500;1,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="splash">
+  <div class="splash-mark"><img src="m/l_r_orbital.webp" alt=""></div>
+  <img class="splash-logo" src="m/logo_rogers.webp" alt="Rogers Digital Marketing">
+  <div class="splash-sub" id="splashSub">marketing &amp; sistemas para restaurantes</div>
+  <div class="splash-bar"><i></i></div>
+</div>
+
+<header id="topbar">
+  <button class="brand" data-go="home" aria-label="Inicio">
+    <span class="brand-mark"><img src="m/l_r_orbital.webp" alt=""></span>
+    <span class="brand-text"><b>Rogers Digital Marketing</b><small id="brandSub">Agencia · Sistemas · IA</small></span>
+  </button>
+  <div class="top-actions">
+    <div class="lang"><button data-lang="es" class="on">ES</button><button data-lang="en">EN</button></div>
+    <a class="icon-btn wa" id="topWa" href="https://wa.me/522941131400" target="_blank" rel="noopener" aria-label="WhatsApp"></a>
+  </div>
+</header>
+
+<main id="views">
+  <section class="view" data-view="home"><div class="view-inner" id="v-home"></div></section>
+  <section class="view" data-view="marketing"><div class="view-inner" id="v-marketing"></div></section>
+  <section class="view" data-view="sistemas"><div class="view-inner" id="v-sistemas"></div></section>
+  <section class="view" data-view="trabajos"><div class="view-inner" id="v-trabajos"></div></section>
+  <section class="view" data-view="paquetes"><div class="view-inner" id="v-paquetes"></div></section>
+  <section class="view" data-view="proceso"><div class="view-inner" id="v-proceso"></div></section>
+  <section class="view" data-view="contacto"><div class="view-inner" id="v-contacto"></div></section>
+</main>
+
+<nav id="dock"><div class="dock-track" id="dockTrack"></div><div class="dock-label" id="dockLabel"></div></nav>
+
+<div id="sheet" aria-hidden="true"><div class="sheet-backdrop" data-close></div><div class="sheet-panel"><div class="sheet-grip"></div><button class="sheet-close" data-close aria-label="Cerrar">✕</button><div class="sheet-body" id="sheetBody"></div></div></div>
+<div id="lightbox" aria-hidden="true"><button class="sheet-close" data-lbclose aria-label="Cerrar">✕</button><div id="lbInner" style="max-width:100%;max-height:100%;display:flex"></div></div>
+<div id="toast"></div>
+<div class="grain"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
